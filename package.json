@@ -1,0 +1,18 @@
+{
+  "name": "adblock-for-bloomberg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "bundle": "zip -r adblock-for-bloomberg.zip *"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.228",
+    "typescript": "^5.0.3"
+  }
+}

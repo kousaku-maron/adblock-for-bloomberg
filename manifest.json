@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "adblocker for bloomberg",
+  "version": "1.0",
+  "description": "adblock for bloomberg.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.bloomberg.co.jp/*"
+      ],
+      "js": [
+        "dist/contentScript.js"
+      ]
+    }
+  ]
+}
